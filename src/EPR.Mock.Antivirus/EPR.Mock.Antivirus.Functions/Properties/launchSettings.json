@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "EPR.Mock.Antivirus.Functions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7219"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 31556,
+      "useSSL": false
+    }
+  }
+}
